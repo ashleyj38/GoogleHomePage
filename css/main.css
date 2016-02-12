@@ -1,8 +1,20 @@
-/*nav {
+.navigation {
+	display: block;
+}
+nav, .right {
 	float:right;
-}*/
+}
 
 li {
 	list-style: none;
-	display:inline;
+	display:inline-block;
 }
+
+.main-search {
+	/*display: block;*/
+	position: relative;
+	left: 50%;
+	top: 50%;
+	/*vertical-align: center;*/
+}
+
