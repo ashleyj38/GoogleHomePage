@@ -19,7 +19,7 @@ li {
 	position: relative;
 	left: 33%;
 	top: 33%;
-	padding-top: 100px;
+	padding-top: 10%;
 	/*background-color: purple;
 	/*vertical-align: center;*/
 }
@@ -49,3 +49,6 @@ li {
 	padding-left: 125px;
 }
 
+.page-footer {
+	margin-top: 60%;
+}
