@@ -44,9 +44,18 @@ li {
 	padding: 0 5px;
 }
 
+.links, .top-links {
+	color: gray;
+}
+
+.top-links button {
+	color: white;
+}
+
 .search-buttons {
 	padding-top: 20px;
 	padding-left: 125px;
+	color: gray;
 }
 
 .page-footer {
