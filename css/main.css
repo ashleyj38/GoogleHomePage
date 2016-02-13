@@ -5,15 +5,9 @@ nav, .right {
 	float:right;
 }
 
-/*.right {
-	background-color: blue;
+.right {
+	margin-top: -50px;
 }
-.left {
-	background-color: red;
-}
-.page-footer {
-	background-color: yellow;
-}*/
 
 li {
 	list-style: none;
