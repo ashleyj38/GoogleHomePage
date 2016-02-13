@@ -66,6 +66,9 @@ li {
 .search-buttons button {
 	padding: 10px 20px;
 	background-color: #E8ECED;
+	font-weight: bold;
+	font-size:14px;
+	color: #2F3030;
 }
 
 .page-footer {
