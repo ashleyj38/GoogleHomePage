@@ -5,6 +5,16 @@ nav, .right {
 	float:right;
 }
 
+/*.right {
+	background-color: blue;
+}
+.left {
+	background-color: red;
+}
+.page-footer {
+	background-color: yellow;
+}*/
+
 li {
 	list-style: none;
 	display:inline-block;
