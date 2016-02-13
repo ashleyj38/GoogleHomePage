@@ -6,7 +6,7 @@ nav, .right {
 }
 
 .right {
-	margin-top: -50px;
+	margin-top: -68px;
 }
 
 li {
@@ -37,7 +37,7 @@ li {
 }
 
 .links {
-	padding: 0 10px;
+	padding: 10px;
 }
 
 .top-links {
@@ -46,16 +46,25 @@ li {
 
 .links, .top-links {
 	color: #2F3030;
+	/*font-family: 'Arimo', 'sans-serif';*/
+	font-size: 14px;
 }
 
 .top-links button {
 	color: white;
+	font-weight: bold;
+	padding: 5px;
 }
 
 .search-buttons {
 	padding-top: 20px;
 	padding-left: 125px;
 	color: #2F3030;
+}
+
+.search-buttons button {
+	padding: 10px 20px;
+	background-color: #E8ECED;
 }
 
 .page-footer {
