@@ -13,8 +13,9 @@ li {
 .main-search {
 	/*display: block;*/
 	position: relative;
-	left: 25%;
-	top: 25%;
+	left: 33%;
+	top: 33%;
+	padding-top: 100px;
 	/*background-color: purple;
 	/*vertical-align: center;*/
 }
