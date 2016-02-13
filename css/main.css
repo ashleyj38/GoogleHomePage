@@ -1,12 +1,23 @@
+
 .navigation {
 	display: block;
 }
+
+
 nav, .right {
 	float:right;
 }
 
 .right {
-	margin-top: -68px;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	/*margin-top: -68px;*/
+}
+.left {
+	position: fixed;
+	left: 0;
+	bottom: 0;
 }
 
 li {
@@ -33,7 +44,7 @@ li {
 	height: 100px;
 	width: 300px;
 	padding-bottom: 25px;
-	margin-left: 125px;
+	margin-left: 100px;
 }
 
 .links {
@@ -53,13 +64,15 @@ li {
 .top-links button {
 	color: white;
 	font-weight: bold;
-	padding: 5px;
+	padding: 5px 10px;
 	background-color: #4883E8;
+	border:none;
+	border-radius: 3px;
 }
 
 .search-buttons {
 	padding-top: 20px;
-	padding-left: 125px;
+	padding-left: 100px;
 	color: #2F3030;
 }
 
@@ -69,9 +82,16 @@ li {
 	font-weight: bold;
 	font-size:14px;
 	color: #2F3030;
+	border-radius: 3px;
+	border: none;
 }
 
 .page-footer {
-	margin-top: 60%;
-	background-color: #E8ECED;
+	/*margin-top: 150px;*/
+	/*background-color: #E8ECED;*/
+	position: fixed;
+	bottom: 0;
+	background-color: purple;
+	
+	
 }
