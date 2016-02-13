@@ -13,8 +13,19 @@ li {
 .main-search {
 	/*display: block;*/
 	position: relative;
-	left: 50%;
-	top: 50%;
+	left: 25%;
+	top: 25%;
+	/*background-color: purple;
 	/*vertical-align: center;*/
 }
+
+.search-bar {
+	width: 500px;
+}
+
+.google-logo {
+	height: 175px;
+	width: 500px;
+}
+
 
