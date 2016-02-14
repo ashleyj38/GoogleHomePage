@@ -28,16 +28,17 @@ li {
 .main-search {
 	/*display: block;*/
 	position: relative;
-	left: 33%;
-	top: 33%;
+	left: 25%;
+	top: 100px;
+	vertical-align: center;
 	padding-top: 10%;
 	/*background-color: purple;
 	/*vertical-align: center;*/
 }
 
 .search-bar {
-	width: 500px;
-	height: 30px;
+	width: 400px;
+	height: 25px;
 }
 
 .google-logo {
@@ -45,6 +46,8 @@ li {
 	width: 216px;
 	padding-bottom: 25px;
 	margin-left: 100px;
+	position: static;
+	vertical-align: center;
 }
 
 .links {
@@ -58,7 +61,7 @@ li {
 .links, .top-links {
 	color: #2F3030;
 	/*font-family: 'Arimo', 'sans-serif';*/
-	font-size: 14px;
+	font-size: 10px;
 }
 
 .top-links button {
@@ -72,7 +75,7 @@ li {
 
 .search-buttons {
 	padding-top: 20px;
-	padding-left: 100px;
+	padding-left: 75px;
 	color: #2F3030;
 }
 
@@ -80,10 +83,11 @@ li {
 	padding: 10px 20px;
 	background-color: #E8ECED;
 	font-weight: bold;
-	font-size:14px;
+	font-size:11px;
 	color: #2F3030;
 	border-radius: 3px;
 	border: none;
+	text-align: center;
 }
 
 .page-footer {
@@ -94,4 +98,9 @@ li {
 	background-color: purple;
 	
 	
+}
+
+.waffle {
+	height: 18px;
+	width: 18px;
 }
