@@ -1,24 +1,46 @@
-
 .navigation {
 	display: block;
+	width: 100%;
+	background-color: red;
 }
 
+.main-info {
+	display: block;
+	width: 100%;
+	/*position: absolute;*/
+}
+
+.page-footer-div {
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	
+}
+.page-footer {
+	/*margin-top: 150px;*/
+	background-color: #E8ECED;
+	bottom: 0;
+}
 
 nav, .right {
 	float:right;
 }
 
+.right, .left {
+	bottom: 0;
+}
+
 .right {
-	position: fixed;
 	right: 0;
-	bottom: 0;
-	/*margin-top: -68px;*/
+	margin-top: -65px;
 }
+
 .left {
-	position: fixed;
+	/*position: absolute;*/
 	left: 0;
-	bottom: 0;
+	text-align: left;
 }
+
 
 li {
 	list-style: none;
@@ -27,13 +49,22 @@ li {
 
 .main-search {
 	/*display: block;*/
-	position: relative;
-	left: 25%;
-	top: 100px;
-	vertical-align: center;
-	padding-top: 10%;
-	/*background-color: purple;
+	position: absolute;
+	/*left: 33%;*/
+	/*top: 100px;*/
+	vertical-align: middle;
+	text-align: center;
+	width:100%;
+	/*padding-top: 10%;*/
+	padding-bottom: 20px;
+	margin-bottom: 75%;
 	/*vertical-align: center;*/
+}
+
+.main-search .google-logo {
+	
+	padding-top: 100px;
+	
 }
 
 .search-bar {
@@ -49,7 +80,6 @@ li {
 	height: 72px;
 	width: 216px;
 	padding-bottom: 25px;
-	margin-left: 100px;
 	position: static;
 	vertical-align: center;
 }
@@ -79,7 +109,8 @@ li {
 
 .search-buttons {
 	padding-top: 20px;
-	margin-left: 85px;
+	padding-bottom: 50px;
+	/*margin-left: 85px;*/
 	color: #2F3030;
 }
 
@@ -94,17 +125,13 @@ li {
 	text-align: center;
 }
 
-.page-footer {
-	/*margin-top: 150px;*/
-	/*background-color: #E8ECED;*/
-	position: fixed;
-	bottom: 0;
-	background-color: purple;
-	
-	
-}
 
 .waffle {
 	height: 18px;
 	width: 18px;
+}
+
+.separate {
+	position: fixed;
+	padding: 0 100px;
 }
